@@ -22,5 +22,6 @@ class Shanghai:
         remStr  = input("rematch? (y/N)\n")
         self.rematch(remStr)
 
-game = Shanghai()
-game.main()
+if __name__ == '__main__':
+    game = Shanghai()
+    game.main()
