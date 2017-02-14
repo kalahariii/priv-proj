@@ -3,10 +3,11 @@ class User:
     users = ""
 
     def __init__(self, userString):
-        self.users = self.parse_users(userString)
+        self.users = self.parse_str(userString)
 
-    def parse_users(self, uString):
-        # fancy list comprehension magic, that looks like Haskell, but feels wrong
+    @classmethod
+    def parse_str(cls, uString):
+        #fancy list comprehension magic, looks like Haskell but feels wrong
         return [x.strip() for x in uString.split(',')]
 
     def get_users(self):
