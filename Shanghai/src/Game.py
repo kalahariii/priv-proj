@@ -48,6 +48,6 @@ class Game:
             print "Game over!\nFinal standings:\n"
             self.update_standings()
 
-        # getting the standing from the table object
+        # getting the standings from the table object
         def update_standings(self):
             self.table.load_standings()
