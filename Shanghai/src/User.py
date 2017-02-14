@@ -6,7 +6,7 @@ class User:
         self.users = self.parse_users(userString)
 
     def parse_users(self, uString):
-        #fancy list comprehension magic, that looks like Haskell, but feels wrong
+        # fancy list comprehension magic, that looks like Haskell, but feels wrong
         return [x.strip() for x in uString.split(',')]
 
     def get_users(self):
