@@ -8,7 +8,7 @@ class Table:
     def __init__(self, users):
         self.users = users
         # This one's actually pretty cool
-        # Python seems to have this light version of a Hasmap
+        # Python seems to have this light version of a hashmap
         # You can set your key an value with ease
         for usr in users:
             # setting all scores to 0 as you inialize the table
