@@ -22,4 +22,4 @@ class Table:
     def load_standings(self):
         for usr in self.users:
             print usr + str(self.table[usr])
-            print "Game on!"
+        print "Game on!"
